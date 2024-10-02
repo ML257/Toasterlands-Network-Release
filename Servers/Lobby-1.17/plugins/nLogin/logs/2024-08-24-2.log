@@ -1,0 +1,63 @@
+[2024/08/24 17:11:02]: §9          __             _       
+[2024/08/24 17:11:02]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/08/24 17:11:02]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/08/24 17:11:02]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/08/24 17:11:02]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/08/24 17:11:02]: §9                  |___/            
+[2024/08/24 17:11:02]: §9 By: www.nickuc.com - V 10.4.3 DEVELOPMENT
+[2024/08/24 17:11:02]: §9 
+[2024/08/24 17:11:05]: §3[nLogin] [DEBUG] All settings were loaded in 3405 ms.
+[2024/08/24 17:11:06]: §3[nLogin] [DEBUG] Loading the messages_br.yml message file...
+[2024/08/24 17:11:06]: §3[nLogin] [DEBUG] All plugin messages were loaded in 335 ms (languageByClient=false).
+[2024/08/24 17:11:06]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2024/08/24 17:11:06]: §3[nLogin] [DEBUG] Loading database...
+[2024/08/24 17:11:12]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/08/24 17:12:35]: 
+[2024/08/24 17:12:35]:  §bMuito obrigado por escolher o nLogin! §4<3
+[2024/08/24 17:12:35]: 
+[2024/08/24 17:12:35]:  §4Para sua segurança, leia a mensagem abaixo:
+[2024/08/24 17:12:35]:   §cNunca baixe o nLogin de fontes desconhecidas.
+[2024/08/24 17:12:35]:   §cUma versão modificada pode conter softwares maliciosos.
+[2024/08/24 17:12:35]: 
+[2024/08/24 17:12:35]:  §3Fontes confiáveis:
+[2024/08/24 17:12:35]:   §bwww.nickuc.com
+[2024/08/24 17:12:35]:   §bwww.github.com/nickuc
+[2024/08/24 17:12:35]:   §bInstalador do OpeNLogin (do Spigot ou GitHub)
+[2024/08/24 17:12:35]: 
+[2024/08/24 17:12:35]:  §3Canais oficiais para suporte:
+[2024/08/24 17:12:35]:   §bGrupo do Discord: §fwww.nickuc.com/discord
+[2024/08/24 17:12:35]:   §bDocumentação: §fdocs.nickuc.com/nlogin/
+[2024/08/24 17:12:35]:   §bE-mail: §fsupport@nickuc.com
+[2024/08/24 17:12:35]:   §bYouTube: §fyoutube.com/nickuc
+[2024/08/24 17:12:35]: 
+[2024/08/24 17:12:35]:  §ePara remover esse aviso, entre com a permissão "nlogin.admin" no servidor
+[2024/08/24 17:12:35]:  §ee clique no botão "Iniciar configuração" para configurar o seu plugin.
+[2024/08/24 17:12:35]: 
+[2024/08/24 17:19:06]: [nLogin] Successful plugin core shutdown (took 0.78s)
+[2024/08/24 17:19:16]: §4[nLogin] [ERROR] §c[ProtocolLib] Failed to unhook ProtocolLib protocols.
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1597)
+	at java.base/java.util.HashMap$ValueIterator.next(HashMap.java:1625)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.Iterators$ConcatenatedIterator.hasNext(Iterators.java:1332)
+	at ProtocolLib.jar//com.comphenix.protocol.async.AsyncFilterManager.unregisterAsyncHandlers(AsyncFilterManager.java:289)
+	at ProtocolLib.jar//com.comphenix.protocol.async.AsyncFilterManager.unregisterAsyncHandlers(AsyncFilterManager.java:283)
+	at com.nickuc.login.οΨημζξξνς.L(:125)
+	at com.nickuc.login.ςμκΔΣιζρΛξΨιθφΠ.J(:92)
+	at com.nickuc.login.ΨεηηνμγυΩαγ.k(:218)
+	at com.nickuc.login.ΠγΔιΠΩζι.N(:265)
+	at com.nickuc.login.ετςζοζηυγς.N(:77)
+	at com.nickuc.login.ΓκυξρχλγθρςΦ.N(:74)
+	at com.nickuc.login.ωςδωλλνδδ.ap(:347)
+	at com.nickuc.login.ετςζοζηυγς.disable(:54)
+	at nLogin.jar//com.nickuc.login.loader.platform.BukkitLoader.onDisable(BukkitLoader.java:37)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:399)
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537)
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:514)
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.disablePlugins(CraftServer.java:495)
+	at net.minecraft.server.MinecraftServer.stop(MinecraftServer.java:1053)
+	at net.minecraft.server.dedicated.DedicatedServer.stop(DedicatedServer.java:817)
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1332)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+	at java.base/java.lang.Thread.run(Thread.java:840)

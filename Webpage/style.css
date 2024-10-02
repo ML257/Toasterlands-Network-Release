@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    font-family: "SUSE", sans-serif;
+    background-color: rgb(50, 50, 50);
+    
+}
+
+/* Barra tope*/
+
+header{
+    background-color: rgba(30, 30, 30, 0.7);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    font-family: 'Minecraft', sans-serif;
+                                                
+}
+
+.titulobarra{
+    
+    margin-top: 0;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* ENLACES */
+
+.enlacestope{
+    
+    margin-top: 19px;
+    margin-right: 20px;
+}
+
+.enlacestope :link{
+    
+  text-decoration: none;
+  color: aliceblue;
+
+
+}
+
+.enlacestope :visited{
+    
+    text-decoration: none;
+    color: aliceblue;
+
+
+  }
+  
+  .enlacestope :hover{
+    
+    text-decoration: none;
+    color: aliceblue;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    
+  } 
+
+
+.enlacet {
+
+    background-color: rgb(46, 223, 64);
+    border-width: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 25px;    
+    padding-bottom: 5px;
+}
+
+
+
+
+
+/*Relleno*/
+
+.cajarelleno{
+
+    height: 69px;
+    background-color: rgb(30, 30, 30);
+}
+
+/* Imagen Bienvenida*/
+
+.weclome {
+
+        
+    height: 600px;
+    background-color: red;
+    background-image: url(src/img/fondo.png);
+    background-position-x: 50%;
+    background-position-y: 40%;
+    text-align: center;
+}
+
+.titbiv{
+    margin-top: 0;
+    font-family: 'Minecraft', sans-serif;
+    padding-top: 250px;
+    color: aliceblue;
+    font-size: 70px;
+ 
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+
+}
+
+.subtitbiv{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+ 
+}
+
+.content {
+    background-color: rgb(51, 51, 51); /*Color del fondo*/
+}
+
+/* Cajas de Descripciones*/
+
+.titdesc {
+
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Minecraft';
+    text-align: center;
+    text-shadow: 10px;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+
+.Descbox{
+
+    display: flex;
+    justify-content: center;    
+    background-color: rgb(95, 100, 84);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-color: aliceblue;
+    border-width: 15px;
+    border-style: outset;
+    color: aliceblue;
+   margin-bottom: 40px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+.imgdesc {
+
+    height: 300px;
+}
+
+.texboc {
+
+    margin-top: 80px;
+    margin-right: 30px;
+    text-align: justify;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.finalofpage {
+    background-color: rgb(29, 29, 29);
+    margin-bottom: -21px;
+    height: 300px;
+}
+
+.titfinal{
+
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Minecraft';
+    font-size: 50px;
+    padding-top: 40px;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+
+.subtitfinal{
+
+    color: aliceblue;
+    text-align: center;
+}
+
+.textocop{
+
+    background-color: rgb(46, 223, 64);
+    border-style: outset;
+    border-width: 3px;
+    border-color: aliceblue;
+    font-size: 35px;
+    padding-bottom: 5px;
+    color: aliceblue;
+    font-family: 'Minecraft';
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+
+.botoncopia{
+    background-color: rgb(46, 223, 64);
+    border-style: outset;
+    border-width: 3px;
+    border-color: aliceblue;
+    font-size: 35px;
+    padding-bottom: 5px;
+    color: aliceblue;
+    font-family: 'Minecraft';
+    font-weight: bold;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.botoncopia :link{
+    color: aliceblue;
+
+}
+
+.botoncopia :visited{
+    color: aliceblue;
+
+}
+
+.botoncopia :hover{
+    color: rgb(251, 255, 0);
+
+
+}
+
+
+
+/* Final de pagina*/
+
+footer{
+    
+    background-color: black;
+
+
+}
+
+.contfut {
+   
+    background-color: rgb(23, 23, 23);
+
+    
+}
+
+.titfut{   
+
+    padding-top: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-family: 'Minecraft';
+}
+
+.filas{
+
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.fila {
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fila :link {
+
+    text-decoration: none;
+    color: rgb(74, 179, 0);
+}
+
+.fila :visited {
+
+    text-decoration: none;
+    color: rgb(74, 179, 0);
+}
+
+.fila :hover{
+
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.copy {
+
+    background-color: rgb(10, 10, 10) ;
+    color: rgb(148, 148, 148);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 80%;
+    
+    
+}

@@ -1,0 +1,55 @@
+[03:19:51] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-00ed2284-b415)...
+[03:19:51] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[03:19:53] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.0.x (Linux x86_64) ciphers
+[03:19:53] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[03:19:53] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[03:19:54] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[03:19:55] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin authmevelocity 4.1.1 by xQuickGlare, 4drian3d
+[03:19:55] [main/INFO] [floodgate]: Took 877ms to boot Floodgate
+[03:19:55] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin floodgate 2.2.3-SNAPSHOT (b109-49bd564) by GeyserMC
+[03:19:56] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin geyser 2.4.2-b661 (git-master-8935b34) by GeyserMC
+[03:19:56] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin velocitycoollist 2.0.0-SNAPSHOT by atikiNBTW
+[03:19:56] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 4 plugins
+[03:19:57] [Velocity Async Event Executor - #0/INFO] [authmevelocity]:  --- AuthMeVelocity ---
+[03:19:57] [Velocity Async Event Executor - #0/INFO] [authmevelocity]: AuthServers: [lobby]
+[03:19:57] [Velocity Async Event Executor - #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:19:57] [Velocity Async Event Executor - #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:20:03] [Velocity Async Event Executor - #0/INFO] [geyser]: Loading extensions...
+[03:20:03] [Velocity Async Event Executor - #0/INFO] [geyser]: Loaded 0 extension(s)
+[03:20:03] [Velocity Async Event Executor - #0/INFO] [velocitycoollist]: Loading config...
+[03:20:03] [Velocity Async Event Executor - #0/INFO] [velocitycoollist]: VelocityCoolList has been enabled! Took 275ms
+[03:20:04] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /0.0.0.0:3000
+[03:20:04] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (15.13s)!
+[03:20:04] [VelocityCoolList - Task Executor #0/INFO] [velocitycoollist]: New version of the plugin is available, please update! Url to the new version: https://cdn.modrinth.com/data/asOrgO06/versions/2t7UMpJh/VelocityCoolList-2.0-SNAPSHOT.jar
+[03:20:04] [Velocity Async Event Executor - #1/INFO] [geyser]: ******************************************
+[03:20:04] [Velocity Async Event Executor - #1/INFO] [geyser]: 
+[03:20:04] [Velocity Async Event Executor - #1/INFO] [geyser]: Loading Geyser version 2.4.2-b661 (git-master-8935b34)
+[03:20:04] [Velocity Async Event Executor - #1/INFO] [geyser]: 
+[03:20:04] [Velocity Async Event Executor - #1/INFO] [geyser]: ******************************************
+[03:20:20] [epollEventLoopGroup-3-2/INFO] [geyser]: Started Geyser on UDP port 19132
+[03:20:20] [Velocity Async Event Executor - #1/INFO] [geyser]: Done (15.675s)! Run /geyser help for help!
+[03:20:20] [Thread-6/INFO] [geyser]: §aThere's a new Geyser update available to support Bedrock version 1.21.30. Download it here: §9§nhttps://geysermc.org/download
+[03:20:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] MLsotillo (/127.16.41.177:57581) has connected
+[03:20:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> lobby has connected
+[03:21:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> survival has connected
+[03:21:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> lobby has disconnected
+[03:22:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] SBalebona (/127.70.49.39:54631) has connected
+[03:22:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SBalebona -> lobby has connected
+[03:22:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> lobby has connected
+[03:22:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SBalebona -> survival has connected
+[03:22:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> survival has disconnected
+[03:22:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SBalebona -> lobby has disconnected
+[03:22:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> skyblock has connected
+[03:22:39] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> lobby has disconnected
+[03:23:19] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] MLsotillo (/127.16.41.177:57581) has disconnected
+[03:23:19] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> skyblock has disconnected
+[03:23:37] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] SBalebona (/127.70.49.39:54631) has disconnected
+[03:23:37] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SBalebona -> survival has disconnected
+[03:38:20] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] SBalebona (/127.70.49.39:56127) has connected
+[03:38:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SBalebona -> lobby has connected
+[03:38:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] SBalebona (/127.70.49.39:56127) has disconnected
+[03:38:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SBalebona -> lobby has disconnected
+[04:10:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] MLsotillo (/127.16.41.177:59697) has connected
+[04:10:32] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> lobby has connected
+[04:11:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] MLsotillo (/127.16.41.177:59697) has disconnected
+[04:11:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] MLsotillo -> lobby has disconnected

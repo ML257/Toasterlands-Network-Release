@@ -1,0 +1,22 @@
+[2024/08/24 17:04:06]: §9          __             _       
+[2024/08/24 17:04:06]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/08/24 17:04:06]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/08/24 17:04:06]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/08/24 17:04:06]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/08/24 17:04:06]: §9                  |___/            
+[2024/08/24 17:04:06]: §9 By: www.nickuc.com - V 10.4.3 DEVELOPMENT
+[2024/08/24 17:04:06]: §9 
+[2024/08/24 17:04:07]: §3[nLogin] [DEBUG] The config.yml file was created successfully.
+[2024/08/24 17:04:14]: §3[nLogin] [DEBUG] All settings were loaded in 7367 ms.
+[2024/08/24 17:04:17]: §3[nLogin] [DEBUG] Loading the messages_br.yml message file...
+[2024/08/24 17:04:17]: §3[nLogin] [DEBUG] All plugin messages were loaded in 2533 ms (languageByClient=false).
+[2024/08/24 17:04:17]: §3[nLogin] [DEBUG] All proxy settings were loaded in 3 ms.
+[2024/08/24 17:04:17]: §3[nLogin] [DEBUG] Loading database...
+[2024/08/24 17:04:18]: [nLogin] Gerando par de chaves RSA... (isso pode demorar um pouco)
+[2024/08/24 17:04:23]: [nLogin] §aO par de chaves RSA foi gerado com sucesso. Demorou 4.96s
+[2024/08/24 17:04:24]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/08/24 17:04:24]: [nLogin] Baixando o ProtocolLib...
+[2024/08/24 17:04:26]: [nLogin] *-----------------------------------------------*
+[2024/08/24 17:04:26]: [nLogin]   O ProtocolLib foi baixado com sucesso.
+[2024/08/24 17:04:26]: [nLogin]   Reiniciando servidor para aplicar as mudanças...
+[2024/08/24 17:04:26]: [nLogin] *-----------------------------------------------*

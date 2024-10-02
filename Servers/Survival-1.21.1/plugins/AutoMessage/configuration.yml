@@ -1,0 +1,94 @@
+# Check if you are using the latest version when joining the server?
+checkForUpdate: true
+# Command configuration
+commandConfiguration:
+  # Auto message command enabled?
+  autoMessageEnabled: true
+  # List of auto message command permissions
+  autoMessagePermission:
+  - command.automessage
+  # List of auto message command aliases
+  # Example: If you add "am" here, you will be able to use the "/am" command in game as a shortcut to "/automessage".
+  autoMessageAliases:
+  - am
+# Notification configuration
+notificationConfiguration:
+  # The value of whether automatic messages should be enabled
+  # This value is changed when auto messages are disabled using the automessage enable/disable command
+  autoMessagesEnabled: true
+  # How often should automatic messages be sent?
+  # Example: 10s
+  autoMessagesDelay: 10s
+  # Automatic message sending mode
+  # Modes: 
+  # RANDOM: Automatic messages will be selected randomly
+  # SEQUENTIAL: Automatic messages will be selected in turn
+  autoMessagesMode: SEQUENTIAL
+  # Automatic message list
+  # If you have trouble configuring the messages, please refer to the project's github.
+  autoMessages:
+  - type: CHAT
+    message: <b><gold>[SERVIDOR]</gold></b>: Si quieres mantener este servidor activo, asegurate de <b><dark_green><click:open_url:'https://client.falixnodes.net/timer?id=1632773'>renovarlo</click></dark_green></b> para mantenerlo encendido
+  
+ 
+
+  # Command notifications
+  autoMessagesEnabledNotification:
+    type: CHAT
+    message: <green>Enabled automatic messages<dark_gray>.
+  autoMessagesDisabledNotification:
+    type: CHAT
+    message: <red>Disabled automatic messages<dark_gray>.
+  # {POSITION} - Position of automatic message
+  autoMessageAddedNotification:
+    type: CHAT
+    message: <green>Added new automatic message with type {TYPE} at position {POSITION}<dark_gray>.
+  autoMessageRemovedNotification:
+    type: CHAT
+    message: <red>Removed automatic message<dark_gray>.
+  autoMessageSendNotification:
+    type: CHAT
+    message: <red>An automatic message has been sent to the player {PLAYER}<dark_gray>.
+  # Format notification information in hovers?
+  # More info at: https://docs.advntr.dev/minimessage/format.html#hover
+  autoMessagesListUseHover: true
+  autoMessagesListFirstNotification:
+    type: CHAT
+    message: '<gray>List of automatic messages<dark_gray>:'
+  # {POSITION} - Position of automatic message
+  # {NOTIFICATION} - Notification information
+  autoMessagesListNotification:
+    type: CHAT
+    message: <gray>{POSITION}<dark_gray>. <red>{NOTIFICATION}
+  autoMessagesEmptyNotification:
+    type: CHAT
+    message: <red>Automatic messages is empty<dark_gray>.
+  autoMessageNotFoundNotification:
+    type: CHAT
+    message: <red>Automatic message not found<dark_gray>.
+  # {USAGE} - The usage of command
+  invalidUsageNotification:
+    type: CHAT
+    message: '<red>Invalid usage<dark_gray>: <red>{USAGE}'
+  # This notifications are used when there is more than one option to use a command
+  invalidUsageFirstNotification:
+    type: CHAT
+    message: '<red>Invalid usage<dark_gray>:'
+  invalidUsageListNotification:
+    type: CHAT
+    message: <dark_gray>- <red>{USAGE}
+  invalidNumberNotification:
+    type: CHAT
+    message: <red>Invalid number value<dark_gray>.
+  invalidFloatNotification:
+    type: CHAT
+    message: <red>Invalid float value<dark_gray>.
+  invalidTypeNotification:
+    type: CHAT
+    message: <red>Invalid notification type<dark_gray>.
+  missingPermissionNotification:
+    type: CHAT
+    message: '<red>Missing permissions<dark_gray>: <red>{PERMISSIONS}'
+  playerNotFoundNotification:
+    type: CHAT
+    message: <red>Player not found<dark_gray>.

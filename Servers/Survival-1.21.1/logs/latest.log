@@ -1,0 +1,460 @@
+[16:50:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Linux 5.15.0-113-generic (amd64)
+[16:50:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-33-master@64c9ee6 (2024-08-17T21:46:09Z) for Minecraft 1.21.1
+[16:50:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:50:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[16:50:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - AdvancedPortals (1.0.0), AutomaticBroadcast (1.7.1), DecentHolograms (2.8.11), DiscordSRV (1.28.0), SetSpawn (4.9), SkinsRestorer (15.4.2), UltimateHomes (3.0), ViaBackwards (5.0.3), ViaVersion (5.0.3), WorldEdit (7.3.6+6892-3d660b8), WorldGuard (7.0.11-beta1+a801a9d)
+[16:51:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:51:14] [ServerMain/INFO]: Loaded 1290 recipes
+[16:51:14] [ServerMain/INFO]: Loaded 1399 advancements
+[16:51:15] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[16:51:15] [Server thread/INFO]: Loading properties
+[16:51:15] [Server thread/INFO]: This server is running Paper version 1.21.1-33-master@64c9ee6 (2024-08-17T21:46:09Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[16:51:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:51:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:51:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:51:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[16:51:19] [Server thread/INFO]: Default game type: SURVIVAL
+[16:51:19] [Server thread/INFO]: Generating keypair
+[16:51:20] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:35053
+[16:51:20] [Server thread/INFO]: Using epoll channel type
+[16:51:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:51:20] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[16:51:25] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[16:51:25] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[16:51:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:51:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:51:31] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:51:31] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:51:34] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
+[16:51:34] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[16:51:38] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@329614f1]
+[16:51:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[16:51:38] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v4.9
+[16:51:38] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.11
+[16:51:38] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.11-beta1+a801a9d
+[16:51:38] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.28.0
+[16:51:38] [Server thread/INFO]: [UltimateHomes] Loading server plugin UltimateHomes v3.0
+[16:51:38] [Server thread/INFO]: [AutomaticBroadcast] Loading server plugin AutomaticBroadcast v1.7.1
+[16:51:38] [Server thread/INFO]: [AdvancedPortals] Loading server plugin AdvancedPortals v1.0.0
+[16:51:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:51:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[16:51:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:51:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:51:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[16:51:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[16:51:44] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[16:51:46] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[16:51:48] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:51:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:51:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:51:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:51:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:51:48] [Server thread/INFO]: Preparing level "world"
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[16:51:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:51:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:51:55] [Server thread/INFO]: Time elapsed: 3600 ms
+[16:51:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:51:55] [Server thread/INFO]: Time elapsed: 513 ms
+[16:51:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:51:56] [Server thread/INFO]: Time elapsed: 385 ms
+[16:51:56] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[16:51:56] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[16:51:56] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
+[16:51:56] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v4.9
+[16:51:56] [Server thread/INFO]: [SetSpawn] Enabled!
+[16:51:56] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.11
+[16:51:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[16:51:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[16:51:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[16:51:58] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.11-beta1+a801a9d
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:51:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:51:59] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:52:01] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.28.0
+[16:52:01] [Server thread/INFO]: [UltimateHomes] Enabling UltimateHomes v3.0
+[16:52:01] [Server thread/INFO]: 
+[16:52:01] [Server thread/INFO]: --------------------------------------
+[16:52:01] [Server thread/INFO]:        UltimateHomes by kixmc
+[16:52:01] [Server thread/INFO]:        Enabled on version 3.0
+[16:52:01] [Server thread/INFO]: --------------------------------------
+[16:52:01] [Server thread/INFO]:  
+[16:52:01] [Server thread/INFO]: [AutomaticBroadcast] Enabling AutomaticBroadcast v1.7.1
+[16:52:01] [Server thread/INFO]:    _____  _____
+[16:52:01] [Server thread/INFO]:   |  _  || __  |  AutomaticBroadcast
+[16:52:01] [Server thread/INFO]:   |     || __ -|    Version 1.7.1
+[16:52:01] [Server thread/INFO]:   |__|__||_____|      by Pandaaa
+[16:52:01] [Server thread/INFO]: 
+[16:52:01] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v1.0.0
+[16:52:01] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
+[16:52:02] [Server thread/WARN]: [AdvancedPortals] Proxy features disabled for Advanced Portals as bungee isn't enabled on the server (spigot.yml).If you are using Paper proxies.velocity.enabled (config/paper-global.yml) or settings.velocity-support.enabled (paper.yml) may not be enabled 
+[16:52:02] [Server thread/INFO]: Advanced portals have been successfully enabled!
+[16:52:02] [pool-45-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (42aad8401b73c52bb4edd11d9a73aa8a6e1619c1)
+[16:52:03] [Server thread/INFO]: [spark] Starting background profiler...
+[16:52:04] [Server thread/INFO]: Done preparing level "world" (16.478s)
+[16:52:04] [Server thread/INFO]: Running delayed init tasks
+[16:52:04] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:52:04] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[16:52:04] [Server thread/INFO]: Done (72.445s)! For help, type "help"
+[16:52:04] [Craft Scheduler Thread - 6 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[16:52:04] [Server thread/INFO]: Timings Reset
+[16:52:04] [Craft Scheduler Thread - 6 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[16:52:11] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[16:52:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[16:52:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[16:52:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:consola-survival(1285609451683840116)
+[16:52:14] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[16:55:24] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[16:58:44] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:02:04] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:05:24] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:08:44] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:12:04] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:15:24] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:16:13] [User Authenticator #0/INFO]: UUID of player MLsotillo is 2f5f48c6-206a-3beb-9a87-97bd8e0759c3
+[17:16:15] [Server thread/INFO]: MLsotillo joined the game
+[17:16:16] [Server thread/INFO]: MLsotillo[/74.249.85.192:50368] logged in with entity id 54 at ([world]-43.585993292317994, 140.99717198185792, -19.429800378766185)
+[17:16:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2622ms or 52 ticks behind
+[17:16:31] [Server thread/INFO]: MLsotillo issued server command: /autobroadcast preview
+[17:16:54] [Server thread/WARN]: [AdvancedPortals] You do not have bungee setup correctly. Cross server destinations won't work.
+[17:16:54] [Server thread/INFO]: [AdvancedPortals] Portal command: ¨#server
+[17:16:54] [Server thread/INFO]: MLsotillo issued server command: /¨#server
+[17:16:56] [Server thread/INFO]: MLsotillo lost connection: Disconnected
+[17:16:56] [Server thread/INFO]: MLsotillo left the game
+[17:18:47] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:22:07] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:25:27] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:28:47] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:32:07] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:35:27] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:38:47] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:42:07] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:45:27] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:48:47] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:52:07] [Server thread/WARN]: [AutomaticBroadcast] Task #11 for AutomaticBroadcast v1.7.1 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1004) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.sendBroadcast(BroadcastManager.java:72) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.broadcast.BroadcastManager.automaticBroadcast(BroadcastManager.java:38) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at AutomaticBroadcast-1.7.1.jar/ca.pandaaa.automaticbroadcast.AutomaticBroadcast$1.run(AutomaticBroadcast.java:179) ~[AutomaticBroadcast-1.7.1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-33-64c9ee6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:55:09] [Server thread/INFO]: Stopping the server
+[17:55:09] [Server thread/INFO]: Stopping server
+[17:55:09] [Server thread/INFO]: [AdvancedPortals] Disabling AdvancedPortals v1.0.0
+[17:55:09] [Server thread/INFO]: Advanced portals are being disabled!
+[17:55:09] [Server thread/INFO]: [AutomaticBroadcast] Disabling AutomaticBroadcast v1.7.1
+[17:55:09] [Server thread/INFO]: [UltimateHomes] Disabling UltimateHomes v3.0
+[17:55:09] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.28.0
+[17:55:09] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 397ms
+[17:55:09] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.11-beta1+a801a9d
+[17:55:09] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[17:55:09] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.11
+[17:55:09] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v4.9
+[17:55:09] [Server thread/INFO]: [SetSpawn] Disabled!
+[17:55:09] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[17:55:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[17:55:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:55:10] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3
+[17:55:10] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
+[17:55:10] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[17:55:10] [Server thread/INFO]: Saving players
+[17:55:10] [Server thread/INFO]: Saving worlds
+[17:55:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 87 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[17:55:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:55:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:55:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:55:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:55:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:55:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:55:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

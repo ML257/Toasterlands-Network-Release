@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "2f5f48c6-206a-3beb-9a87-97bd8e0759c3",
+    "name": "MLsotillo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9b67f3b5-42c9-3dbc-8ae2-3981a6db2558",
+    "name": "SBalebona",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f529866e-d35e-30c7-870b-835c0226f7cb",
+    "name": "010110101000",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

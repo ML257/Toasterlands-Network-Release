@@ -1,0 +1,33 @@
+
+# The broadcasts that will be displayed automatically.
+broadcasts:
+  # The name of the broadcast, basically a key word to know which broadcast is which (does not change anything in-game).
+  # Make sure every broadcast has a different name (no duplicates!)
+  plugin:
+    # A list of messages that will be displayed when the broadcast occurs.
+    messages:
+      - "&l&6[SERVIDOR]: &fSi quieres mantener este servidor activo, asegurate de &arenovarlo &fpara mantenerlo encendido..."
+     
+    # What will occur when a player clicks on the broadcast :
+    # "*" -> Suggests a message in the player's chat. (Ex.: *exemple -> Suggests "exemple")
+    # "/" -> Suggests a command in the player's chat. (Ex.: /exemple -> Suggests "/exemple")
+    # "link" -> Opens a link if IT IS VALID! (Make sure to add "https://...")
+    click: "https://client.falixnodes.net/timer?id=1632773"
+    # The tooltip that will be displayed when the players hover over the message.
+    hover:
+      - " &dHazme click para obtener el enlace "
+
+    # The sound played for every player receiving the broadcast.
+    # Please refer to the bukkit list of sound: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    # The player(s) that should not receive this broadcast.
+    exempted_players:
+      - exempted-player1
+      - exempted-player2
+    # The command(s) executed by the console along with the broadcast.
+    console-commands:
+      - ""
+      - ""
+   
+
+  
