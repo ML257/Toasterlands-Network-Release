@@ -1,6 +1,6 @@
 # Welcome to Toasterlands Network Project
 
-## This is my biggest project to date, which comprises of a Minecraft Website and Network at the same time. I wanted to share it so others could use it as a base, as well as have a place to store it.
+## This is my biggest project to date, which comprises of a Minecraft Website and Minecrafr Network at the same time. I wanted to share it so others could use it as a base, as well as have a place to store it.
 
 ** Warning **
  
